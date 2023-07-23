@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
 
 public class UIbreathing : MonoBehaviour
@@ -22,8 +23,12 @@ public class UIbreathing : MonoBehaviour
     [SerializeField] private float StartExhaleTime = 4.2f;
     [SerializeField] private float TargetExhaleTime = 7f;
     [SerializeField] private float CurrentExhaleTime;
+    
+    private ParticleSystem particleSystem;
     private void Start()
     {
+        particleSystem = GetComponent<ParticleSystem>();
+        
         LeanTween.value(StartInhaleTime, TargetInhaleTime, timeTillTarget).setOnUpdate((float value) => CurrentInhaleTime = value );
         LeanTween.value(StartExhaleTime, TargetExhaleTime, timeTillTarget).setOnUpdate((float value) => CurrentExhaleTime = value );
         LeanTween.value(StartHoldTime, TargetHoldTime, timeTillTarget).setOnUpdate((float value) => CurrentHoldTime = value );
@@ -34,6 +39,10 @@ public class UIbreathing : MonoBehaviour
         LeanTween.scale(gameObject, fullBreath, CurrentInhaleTime)
             .setEaseInOutCubic()
             .setOnComplete(() => StartExhale());
+        if (particleSystem!= null)
+        {
+            particleSystem.Stop();
+        }
     }
     private void StartExhale()
     {
@@ -41,7 +50,12 @@ public class UIbreathing : MonoBehaviour
             .setEaseInOutCubic()
             .setOnComplete(() => StartInhale())
             .setDelay(CurrentHoldTime);
+        if (particleSystem!= null)
+        {
+            particleSystem.Play();
+        }
+
     }
 
-        
+
 }
