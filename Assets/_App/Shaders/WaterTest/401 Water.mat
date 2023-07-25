@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 401 Water
+  m_Shader: {fileID: 4800000, guid: 0be1e3dfd87622d40b75088dabd5527d, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Cubemap:
+        m_Texture: {fileID: 8900000, guid: c51100e001565e14796f8c3ddb620d96, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Foam:
+        m_Texture: {fileID: 2800000, guid: c5879f804853b9140ada27308d8f7816, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal1:
+        m_Texture: {fileID: 2800000, guid: a681e0045527bd74490f319c77d415b0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: caecb7663e614c0e8d1cf595085ee759, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample25:
+        m_Texture: {fileID: 2800000, guid: 5af0f37ecb82fa04296f133b62d97f17, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DebugTess: 1
+    - _Distance: 53.1
+    - _EdgeLength: 15
+    - _Falloff: 0.6
+    - _Float2: 0.668
+    - _Float3: 1.61
+    - _FoamNoiseTiling: 1
+    - _NormalPanSpeed: 0.012
+    - _NormalStrength: 0.273
+    - _RimPower: 9.2
+    - _RimPower1: 20
+    - _RotationAngle: 0.74
+    - _SeaFoamTile: 0.62
+    - _Smoothness: 0.5
+    - _WaveHeight: 0.0005
+    - _WaveSpeed: 0.02
+    - _WaveTile: 6.98
+    - _WorldspaceTile: 0.17
+    - __dirty: 0
+    m_Colors:
+    - _BottomColor: {r: 0.023673896, g: 0.09581699, b: 0.26415092, a: 1}
+    - _Color0: {r: 0, g: 0.7264151, b: 0.18160377, a: 1}
+    - _PosOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _RimColor: {r: 0.6981132, g: 0.29966182, b: 0.30708534, a: 1}
+    - _TopColor: {r: 0.29263082, g: 0.43280527, b: 0.4528302, a: 1}
+    - _WaveDir: {r: 3.52, g: 6.64, b: 2.04, a: 1.38}
+    - _WaveStretch: {r: 0.01, g: 0.01, b: 0, a: 0}

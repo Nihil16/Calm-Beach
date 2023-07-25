@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 201 Water
+  m_Shader: {fileID: 4800000, guid: d68059f9dfe532f4e974c031a919b35e, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Cubemap:
+        m_Texture: {fileID: 8900000, guid: c51100e001565e14796f8c3ddb620d96, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Foam:
+        m_Texture: {fileID: 2800000, guid: c5879f804853b9140ada27308d8f7816, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal1:
+        m_Texture: {fileID: 2800000, guid: a681e0045527bd74490f319c77d415b0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: caecb7663e614c0e8d1cf595085ee759, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample25:
+        m_Texture: {fileID: 2800000, guid: 5af0f37ecb82fa04296f133b62d97f17, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _tex3coord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DebugTess: 1
+    - _Distance: 177.98
+    - _EdgeLength: 15
+    - _Falloff: 0.6
+    - _Float2: 97
+    - _Float3: 1.61
+    - _FoamNoiseTiling: 2000
+    - _NormalPanSpeed: 0.01
+    - _NormalStrength: 0.31
+    - _RimPower: 20.69
+    - _RimPower1: 20
+    - _RotationAngle: -0.64
+    - _SeaFoamTile: 2000
+    - _Smoothness: 0.45
+    - _WaveHeight: 0.003
+    - _WaveSpeed: 0.1
+    - _WaveTile: 3
+    - _WorldspaceTile: 75
+    - __dirty: 0
+    m_Colors:
+    - _BottomColor: {r: 0, g: 0.2075, b: 0.3679245, a: 1}
+    - _Color0: {r: 0, g: 0.7264151, b: 0.18160377, a: 1}
+    - _PosOffset: {r: 0.39, g: 0, b: 0, a: 0}
+    - _RimColor: {r: 0.39035243, g: 0.5008615, b: 0.6415094, a: 1}
+    - _TopColor: {r: 0.09416164, g: 0.5749999, b: 0.8679245, a: 1}
+    - _WaveDir: {r: 0.77, g: 0, b: 0, a: 0}
+    - _WaveStretch: {r: 40, g: 53.5, b: 0, a: 0}
