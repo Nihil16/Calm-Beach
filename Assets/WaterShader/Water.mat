@@ -86,7 +86,7 @@ Material:
     - _Foam_Depth: 2.85
     - _Foam_Distance: 0.3
     - _Foam_Strength: 1.91
-    - _Foam_Tile: 1.61
+    - _Foam_Tile: 100
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
