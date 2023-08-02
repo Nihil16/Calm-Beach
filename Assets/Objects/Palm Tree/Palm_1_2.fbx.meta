@@ -7,6 +7,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Palm_Center
+    second: {fileID: 2100000, guid: 2e5743033749c4141ad992df86e24ea8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Palm_Leaf
     second: {fileID: 2100000, guid: e4e01b04fd984784d9a2ed7340ba1d70, type: 2}
   - first:
