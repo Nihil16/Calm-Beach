@@ -525,8 +525,8 @@ WindZone:
   m_Enabled: 1
   m_Mode: 0
   m_Radius: 20
-  m_WindMain: 1
-  m_WindTurbulence: 1
+  m_WindMain: 0.5
+  m_WindTurbulence: 0.5
   m_WindPulseMagnitude: 0.5
   m_WindPulseFrequency: 0.01
 --- !u!4 &429701887
@@ -6814,16 +6814,6 @@ PrefabInstance:
     - target: {fileID: 6507361531836905784, guid: d8aa34e8ad1843642b19270c12ec2316,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4676994342393434948, guid: d8aa34e8ad1843642b19270c12ec2316,
-        type: 3}
-      propertyPath: m_CastShadows
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4676994342393434948, guid: d8aa34e8ad1843642b19270c12ec2316,
-        type: 3}
-      propertyPath: m_SelectedEditorRenderState
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
