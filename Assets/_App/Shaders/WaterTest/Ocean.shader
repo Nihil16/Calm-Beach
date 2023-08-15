@@ -9,13 +9,13 @@ Shader "Ocean"
 		_WaveStretch("WaveStretch", Vector) = (0.23,0.01,0,0)
 		_WaveTile("WaveTile", Float) = 1
 		_WaveHeight("WaveHeight", Float) = 1
-		_Smoothness("Smoothness", Range( 0 , 1)) = 0.8
+		_Smoothness("Smoothness", Range( -100 , 100)) = 0.8
 		_TopColor("Top Color", Color) = (0.2672659,0.8237126,0.8584906,1)
 		_BottomColor("Bottom Color", Color) = (0.2055892,0.597784,0.6226415,1)
 		[Normal]_NormalMap("NormalMap", 2D) = "bump" {}
 		_WorldspaceTile("WorldspaceTile", Float) = 1
 		_NormalPanSpeed("NormalPanSpeed", Float) = 0
-		_NormalStrength("NormalStrength", Range( 0 , 1)) = 1
+		_NormalStrength("NormalStrength", Range( -10 , 10)) = 1
 		_Foam("Foam", 2D) = "white" {}
 		_SeaFoamTile("SeaFoamTile", Float) = 1
 		_FoamNoiseTiling("FoamNoiseTiling", Float) = 0.03
